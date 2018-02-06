@@ -39,6 +39,3 @@ jobs:
           command: |
             . venv/bin/activate
             python test_fizzbuzz.py
-      - store_artifacts:
-          path: test-reports
-          destination: test-reports
