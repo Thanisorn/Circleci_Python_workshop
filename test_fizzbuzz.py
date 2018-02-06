@@ -3,7 +3,7 @@ import unittest
 
 def fizzbuzz(number):
     if number == 3:
-        return 'fuzz'
+        return 'fizz'
 
 
 class FizzBuzzTest(unittest.TestCase):
