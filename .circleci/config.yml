@@ -55,13 +55,13 @@ workflows:
   Circleci_Python_workshop:
     jobs:
       - checkout_code
-      - python_dependncies:
+      - python_dependencies:
           requires:
             - checkout_code
       - static_analysis:
           requires:
-            - python_dependncies
+            - python_dependencies
       - unit_tests:
           requires:
-            - python_dependncies
+            - python_dependencies
   
